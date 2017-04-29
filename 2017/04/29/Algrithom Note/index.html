@@ -1,0 +1,640 @@
+
+ <!DOCTYPE HTML>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+    <title>Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="John Doe">
+    
+
+    
+    <meta name="description" content="第1章 基础1.1 基础编程模型 定义：实现算法所用到的语言特性、软件库和操作系统特性总称为基础编程模型。  1.1.1 Java程序的基本结构 一段Java程序(类)或者是一个静态方法（函数）库，或者定义了一个数据类型 Java语言的基础语法 原始数据类型 语句 数组 静态方法：可以封装并重用代码 字符串 标准输入/输出 数据抽象：定义非原始数据类型，进而支持面向对象编程    1.1.2 原始">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2017/04/29/Algrithom Note/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="第1章 基础1.1 基础编程模型 定义：实现算法所用到的语言特性、软件库和操作系统特性总称为基础编程模型。  1.1.1 Java程序的基本结构 一段Java程序(类)或者是一个静态方法（函数）库，或者定义了一个数据类型 Java语言的基础语法 原始数据类型 语句 数组 静态方法：可以封装并重用代码 字符串 标准输入/输出 数据抽象：定义非原始数据类型，进而支持面向对象编程    1.1.2 原始">
+<meta property="og:updated_time" content="2017-04-29T10:43:44.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="第1章 基础1.1 基础编程模型 定义：实现算法所用到的语言特性、软件库和操作系统特性总称为基础编程模型。  1.1.1 Java程序的基本结构 一段Java程序(类)或者是一个静态方法（函数）库，或者定义了一个数据类型 Java语言的基础语法 原始数据类型 语句 数组 静态方法：可以封装并重用代码 字符串 标准输入/输出 数据抽象：定义非原始数据类型，进而支持面向对象编程    1.1.2 原始">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Hexo" title="Hexo"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Hexo">Hexo</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2017/04/29/Algrithom Note/" title="" itemprop="url"></a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
+		
+  <p class="article-time">
+    <time datetime="2017-04-29T10:43:44.000Z" itemprop="datePublished"> 发表于 2017-04-29</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#第1章-基础"><span class="toc-number">1.</span> <span class="toc-text">第1章 基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-基础编程模型"><span class="toc-number">1.1.</span> <span class="toc-text">1.1 基础编程模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-1-Java程序的基本结构"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1.1 Java程序的基本结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-2-原始数据类型与表达式"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.1.2 原始数据类型与表达式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-1-表达式"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">1.1.2.1 表达式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-2-类型转换"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">1.1.2.2 类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-3-比较"><span class="toc-number">1.1.2.3.</span> <span class="toc-text">1.1.2.3 比较</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-4-其他原始类型"><span class="toc-number">1.1.2.4.</span> <span class="toc-text">1.1.2.4 其他原始类型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-3-语句"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.1.3 语句</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-1-声明语句"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">1.1.3.1 声明语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-2-赋值语句"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">1.1.3.2 赋值语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-3-条件语句"><span class="toc-number">1.1.3.3.</span> <span class="toc-text">1.1.3.3 条件语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-4-循环语句"><span class="toc-number">1.1.3.4.</span> <span class="toc-text">1.1.3.4 循环语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-5-break-和-continue-语句"><span class="toc-number">1.1.3.5.</span> <span class="toc-text">1.1.3.5 break 和 continue 语句</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-4-简便记法"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.1.4 简便记法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-1-声明并初始化"><span class="toc-number">1.1.4.1.</span> <span class="toc-text">1.1.4.1 声明并初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-2-隐式赋值"><span class="toc-number">1.1.4.2.</span> <span class="toc-text">1.1.4.2 隐式赋值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-3-单语句代码段"><span class="toc-number">1.1.4.3.</span> <span class="toc-text">1.1.4.3 单语句代码段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-4-for-语句"><span class="toc-number">1.1.4.4.</span> <span class="toc-text">1.1.4.4 for 语句</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-5-数组"><span class="toc-number">1.1.5.</span> <span class="toc-text">1.1.5 数组</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-1-创建并初始化数组"><span class="toc-number">1.1.5.1.</span> <span class="toc-text">1.1.5.1 创建并初始化数组</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-2-简化写法"><span class="toc-number">1.1.5.2.</span> <span class="toc-text">1.1.5.2 简化写法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-3-使用数组"><span class="toc-number">1.1.5.3.</span> <span class="toc-text">1.1.5.3 使用数组</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-4-起别名"><span class="toc-number">1.1.5.4.</span> <span class="toc-text">1.1.5.4 起别名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-5-二维数组"><span class="toc-number">1.1.5.5.</span> <span class="toc-text">1.1.5.5 二维数组</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-6-静态方法"><span class="toc-number">1.1.6.</span> <span class="toc-text">1.1.6 静态方法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-1-静态方法"><span class="toc-number">1.1.6.1.</span> <span class="toc-text">1.1.6.1 静态方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-2-调用静态方法"><span class="toc-number">1.1.6.2.</span> <span class="toc-text">1.1.6.2 调用静态方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-3-方法的性质"><span class="toc-number">1.1.6.3.</span> <span class="toc-text">1.1.6.3 方法的性质</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-4-递归"><span class="toc-number">1.1.6.4.</span> <span class="toc-text">1.1.6.4 递归</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-5-基础编程模型"><span class="toc-number">1.1.6.5.</span> <span class="toc-text">1.1.6.5 基础编程模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-6-模块化编程"><span class="toc-number">1.1.6.6.</span> <span class="toc-text">1.1.6.6 模块化编程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-7-单元测试"><span class="toc-number">1.1.6.7.</span> <span class="toc-text">1.1.6.7 单元测试</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-8-外部库"><span class="toc-number">1.1.6.8.</span> <span class="toc-text">1.1.6.8 外部库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-7-API"><span class="toc-number">1.1.7.</span> <span class="toc-text">1.1.7 API</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-7-1-举例"><span class="toc-number">1.1.7.1.</span> <span class="toc-text">1.1.7.1 举例</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-7-4-自己编写的库"><span class="toc-number">1.1.7.2.</span> <span class="toc-text">1.1.7.4 自己编写的库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-8-字符串"><span class="toc-number">1.1.8.</span> <span class="toc-text">1.1.8 字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-1-字符串拼接"><span class="toc-number">1.1.8.1.</span> <span class="toc-text">1.1.8.1 字符串拼接</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-2-类型转换"><span class="toc-number">1.1.8.2.</span> <span class="toc-text">1.1.8.2 类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-3-自动转换"><span class="toc-number">1.1.8.3.</span> <span class="toc-text">1.1.8.3 自动转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-4-命令行参数"><span class="toc-number">1.1.8.4.</span> <span class="toc-text">1.1.8.4 命令行参数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-9-输入输出"><span class="toc-number">1.1.9.</span> <span class="toc-text">1.1.9 输入输出</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-1-命令和参数"><span class="toc-number">1.1.9.1.</span> <span class="toc-text">1.1.9.1 命令和参数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-2-标准输出"><span class="toc-number">1.1.9.2.</span> <span class="toc-text">1.1.9.2 标准输出</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-3-格式化输出"><span class="toc-number">1.1.9.3.</span> <span class="toc-text">1.1.9.3 格式化输出</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-4-标准输入"><span class="toc-number">1.1.9.4.</span> <span class="toc-text">1.1.9.4 标准输入</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-5-重定向与管道"><span class="toc-number">1.1.9.5.</span> <span class="toc-text">1.1.9.5 重定向与管道</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-6-基于文件的输入输出"><span class="toc-number">1.1.9.6.</span> <span class="toc-text">1.1.9.6 基于文件的输入输出</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-7-标准绘图库"><span class="toc-number">1.1.9.7.</span> <span class="toc-text">1.1.9.7 标准绘图库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-10-二分查找"><span class="toc-number">1.1.10.</span> <span class="toc-text">1.1.10 二分查找</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-10-1-二分查找"><span class="toc-number">1.1.10.1.</span> <span class="toc-text">1.1.10.1 二分查找</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-10-3-白名单过滤"><span class="toc-number">1.1.10.2.</span> <span class="toc-text">1.1.10.3 白名单过滤</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-11-展望"><span class="toc-number">1.1.11.</span> <span class="toc-text">1.1.11 展望</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-数据抽象"><span class="toc-number">1.2.</span> <span class="toc-text">1.2 数据抽象</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-1使用ADT"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.2.1使用ADT</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-2-继承的方法"><span class="toc-number">1.2.1.1.</span> <span class="toc-text">1.2.1.2 继承的方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-4-对象"><span class="toc-number">1.2.1.2.</span> <span class="toc-text">1.2.1.4 对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-5-创建对象"><span class="toc-number">1.2.1.3.</span> <span class="toc-text">1.2.1.5 创建对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-6-调用实例方法"><span class="toc-number">1.2.1.4.</span> <span class="toc-text">1.2.1.6 调用实例方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-7-使用对象"><span class="toc-number">1.2.1.5.</span> <span class="toc-text">1.2.1.7 使用对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-8-赋值语句"><span class="toc-number">1.2.1.6.</span> <span class="toc-text">1.2.1.8 赋值语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-9-将对象作为参数"><span class="toc-number">1.2.1.7.</span> <span class="toc-text">1.2.1.9 将对象作为参数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-10-将对象作为返回值"><span class="toc-number">1.2.1.8.</span> <span class="toc-text">1.2.1.10 将对象作为返回值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-11-数组也是对象"><span class="toc-number">1.2.1.9.</span> <span class="toc-text">1.2.1.11 数组也是对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-12-对象的数组"><span class="toc-number">1.2.1.10.</span> <span class="toc-text">1.2.1.12 对象的数组</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-3-抽象数据类型的实现"><span class="toc-number">1.2.2.</span> <span class="toc-text">1.2.3 抽象数据类型的实现</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-背包，队列和栈"><span class="toc-number">1.3.</span> <span class="toc-text">1.3 背包，队列和栈</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-1-API"><span class="toc-number">1.3.1.</span> <span class="toc-text">1.3.1 API</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-1-泛型"><span class="toc-number">1.3.1.1.</span> <span class="toc-text">1.3.1.1 泛型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-2-自动装箱"><span class="toc-number">1.3.1.2.</span> <span class="toc-text">1.3.1.2 自动装箱</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-3-可迭代的集合类型"><span class="toc-number">1.3.1.3.</span> <span class="toc-text">1.3.1.3 可迭代的集合类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-4-背包"><span class="toc-number">1.3.1.4.</span> <span class="toc-text">1.3.1.4 背包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-5-队列"><span class="toc-number">1.3.1.5.</span> <span class="toc-text">1.3.1.5 队列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-6-下压栈"><span class="toc-number">1.3.1.6.</span> <span class="toc-text">1.3.1.6 下压栈</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-2-集合类数据类型的实现"><span class="toc-number">1.3.2.</span> <span class="toc-text">1.3.2 集合类数据类型的实现</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-1-定容栈"><span class="toc-number">1.3.2.1.</span> <span class="toc-text">1.3.2.1 定容栈</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-2-泛型"><span class="toc-number">1.3.2.2.</span> <span class="toc-text">1.3.2.2 泛型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-3-调整数组大小"><span class="toc-number">1.3.2.3.</span> <span class="toc-text">1.3.2.3 调整数组大小</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-4-对象游离"><span class="toc-number">1.3.2.4.</span> <span class="toc-text">1.3.2.4 对象游离</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-5-迭代"><span class="toc-number">1.3.2.5.</span> <span class="toc-text">1.3.2.5 迭代</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-3-链表"><span class="toc-number">1.3.3.</span> <span class="toc-text">1.3.3 链表</span></a></li></ol></li></ol></li></ol>
+		
+		</div>
+		
+		<h1 id="第1章-基础"><a href="#第1章-基础" class="headerlink" title="第1章 基础"></a>第1章 基础</h1><h2 id="1-1-基础编程模型"><a href="#1-1-基础编程模型" class="headerlink" title="1.1 基础编程模型"></a>1.1 基础编程模型</h2><ul>
+<li>定义：实现算法所用到的语言特性、软件库和操作系统特性总称为基础编程模型。</li>
+</ul>
+<h3 id="1-1-1-Java程序的基本结构"><a href="#1-1-1-Java程序的基本结构" class="headerlink" title="1.1.1 Java程序的基本结构"></a>1.1.1 Java程序的基本结构</h3><ul>
+<li>一段Java程序(类)或者是一个静态方法（函数）库，或者定义了一个数据类型</li>
+<li>Java语言的基础语法<ul>
+<li>原始数据类型</li>
+<li>语句</li>
+<li>数组</li>
+<li>静态方法：可以封装并重用代码</li>
+<li>字符串</li>
+<li>标准输入/输出</li>
+<li>数据抽象：定义非原始数据类型，进而支持面向对象编程</li>
+</ul>
+</li>
+</ul>
+<h3 id="1-1-2-原始数据类型与表达式"><a href="#1-1-2-原始数据类型与表达式" class="headerlink" title="1.1.2 原始数据类型与表达式"></a>1.1.2 原始数据类型与表达式</h3><ul>
+<li>四种基本原始数据类型：int， double，bool， char<h4 id="1-1-2-1-表达式"><a href="#1-1-2-1-表达式" class="headerlink" title="1.1.2.1 表达式"></a>1.1.2.1 表达式</h4></li>
+<li>Java使用中缀表达式：字面值 + 运算符 + 字面值<h4 id="1-1-2-2-类型转换"><a href="#1-1-2-2-类型转换" class="headerlink" title="1.1.2.2 类型转换"></a>1.1.2.2 类型转换</h4></li>
+<li>转换是指在表达式中把类型名放在括号里将其后的值转换为括号中类型</li>
+<li>int(3.7) = 3 截断小数部分<h4 id="1-1-2-3-比较"><a href="#1-1-2-3-比较" class="headerlink" title="1.1.2.3 比较"></a>1.1.2.3 比较</h4><h4 id="1-1-2-4-其他原始类型"><a href="#1-1-2-4-其他原始类型" class="headerlink" title="1.1.2.4 其他原始类型"></a>1.1.2.4 其他原始类型</h4></li>
+<li>long （64位整数）</li>
+<li>short （16位整数）</li>
+<li>byte (8位整数)</li>
+<li>char (16位字符)</li>
+<li>float (32为单精度实数)</li>
+</ul>
+<h3 id="1-1-3-语句"><a href="#1-1-3-语句" class="headerlink" title="1.1.3 语句"></a>1.1.3 语句</h3><h4 id="1-1-3-1-声明语句"><a href="#1-1-3-1-声明语句" class="headerlink" title="1.1.3.1 声明语句"></a>1.1.3.1 声明语句</h4><ul>
+<li>将一个变量名和类型在编译时关联起来（Java 强类型语言）<h4 id="1-1-3-2-赋值语句"><a href="#1-1-3-2-赋值语句" class="headerlink" title="1.1.3.2 赋值语句"></a>1.1.3.2 赋值语句</h4><h4 id="1-1-3-3-条件语句"><a href="#1-1-3-3-条件语句" class="headerlink" title="1.1.3.3 条件语句"></a>1.1.3.3 条件语句</h4><h4 id="1-1-3-4-循环语句"><a href="#1-1-3-4-循环语句" class="headerlink" title="1.1.3.4 循环语句"></a>1.1.3.4 循环语句</h4><h4 id="1-1-3-5-break-和-continue-语句"><a href="#1-1-3-5-break-和-continue-语句" class="headerlink" title="1.1.3.5 break 和 continue 语句"></a>1.1.3.5 break 和 continue 语句</h4></li>
+</ul>
+<h3 id="1-1-4-简便记法"><a href="#1-1-4-简便记法" class="headerlink" title="1.1.4 简便记法"></a>1.1.4 简便记法</h3><h4 id="1-1-4-1-声明并初始化"><a href="#1-1-4-1-声明并初始化" class="headerlink" title="1.1.4.1 声明并初始化"></a>1.1.4.1 声明并初始化</h4><pre><code>int i = 1
+</code></pre><h4 id="1-1-4-2-隐式赋值"><a href="#1-1-4-2-隐式赋值" class="headerlink" title="1.1.4.2 隐式赋值"></a>1.1.4.2 隐式赋值</h4><h4 id="1-1-4-3-单语句代码段"><a href="#1-1-4-3-单语句代码段" class="headerlink" title="1.1.4.3 单语句代码段"></a>1.1.4.3 单语句代码段</h4><ul>
+<li>如果条件或循环语句只有一句代码，代码段花括号可以省略<h4 id="1-1-4-4-for-语句"><a href="#1-1-4-4-for-语句" class="headerlink" title="1.1.4.4 for 语句"></a>1.1.4.4 for 语句</h4></li>
+</ul>
+<h3 id="1-1-5-数组"><a href="#1-1-5-数组" class="headerlink" title="1.1.5 数组"></a>1.1.5 数组</h3><ul>
+<li>存储多个数据类型相同的数据<h4 id="1-1-5-1-创建并初始化数组"><a href="#1-1-5-1-创建并初始化数组" class="headerlink" title="1.1.5.1 创建并初始化数组"></a>1.1.5.1 创建并初始化数组</h4>创建数组三步：</li>
+<li>声明数组名字和类型</li>
+<li>创建数组</li>
+<li>初始化数组元素</li>
+</ul>
+<blockquote>
+<p>完整模式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">double[] a;</div><div class="line">a = new double[N];</div><div class="line">for (int i = 0; i&lt; N; i++) &#123;</div><div class="line">    a[i] = 0.0;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+</blockquote>
+<h4 id="1-1-5-2-简化写法"><a href="#1-1-5-2-简化写法" class="headerlink" title="1.1.5.2 简化写法"></a>1.1.5.2 简化写法</h4><blockquote>
+<p>简化写法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">double[] a = new double[N];</div></pre></td></tr></table></figure></p>
+<p>声明初始化<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">int[] a = &#123;1,2, 3, 4, 5&#125;</div></pre></td></tr></table></figure></p>
+</blockquote>
+<h4 id="1-1-5-3-使用数组"><a href="#1-1-5-3-使用数组" class="headerlink" title="1.1.5.3 使用数组"></a>1.1.5.3 使用数组</h4><h4 id="1-1-5-4-起别名"><a href="#1-1-5-4-起别名" class="headerlink" title="1.1.5.4 起别名"></a>1.1.5.4 起别名</h4><blockquote>
+<p>将一个数组赋值给另一个变量，两个变量将会指向同一个数组</p>
+<h4 id="1-1-5-5-二维数组"><a href="#1-1-5-5-二维数组" class="headerlink" title="1.1.5.5 二维数组"></a>1.1.5.5 二维数组</h4></blockquote>
+<h3 id="1-1-6-静态方法"><a href="#1-1-6-静态方法" class="headerlink" title="1.1.6 静态方法"></a>1.1.6 静态方法</h3><blockquote>
+<p>静态方法又被称为函数，用static关键字修饰，用以区别于类方法</p>
+<h4 id="1-1-6-1-静态方法"><a href="#1-1-6-1-静态方法" class="headerlink" title="1.1.6.1 静态方法"></a>1.1.6.1 静态方法</h4><h4 id="1-1-6-2-调用静态方法"><a href="#1-1-6-2-调用静态方法" class="headerlink" title="1.1.6.2 调用静态方法"></a>1.1.6.2 调用静态方法</h4><h4 id="1-1-6-3-方法的性质"><a href="#1-1-6-3-方法的性质" class="headerlink" title="1.1.6.3 方法的性质"></a>1.1.6.3 方法的性质</h4><ul>
+<li>方法的参数按值传递。值传递意味着数组参数将是原数组的别名——方法中的参数b变量能够引用调用者的数组并改变其内容（只是不能改变原数组变量本身）</li>
+<li>方法名可以被重载。</li>
+<li>方法只能返回一个值，但可以有多条返回语句</li>
+<li>方法可以产生副作用。返回值为void<h4 id="1-1-6-4-递归"><a href="#1-1-6-4-递归" class="headerlink" title="1.1.6.4 递归"></a>1.1.6.4 递归</h4>三点注意事项：</li>
+<li>递归总有最简单的情况，第一条语句一般是包含return的条件判断语句</li>
+<li>递归总是在尝试解决一个规模更小的问题，这样递归才能收敛到最小的情况</li>
+<li>递归调用的父问题和尝试解决的子问题之间不应该有交集<h4 id="1-1-6-5-基础编程模型"><a href="#1-1-6-5-基础编程模型" class="headerlink" title="1.1.6.5 基础编程模型"></a>1.1.6.5 基础编程模型</h4>Java 开发的基本模式：编写一个静态方法库（包含一个main()方法）来完成一项任务<h4 id="1-1-6-6-模块化编程"><a href="#1-1-6-6-模块化编程" class="headerlink" title="1.1.6.6 模块化编程"></a>1.1.6.6 模块化编程</h4>通过静态方法库实现<h4 id="1-1-6-7-单元测试"><a href="#1-1-6-7-单元测试" class="headerlink" title="1.1.6.7 单元测试"></a>1.1.6.7 单元测试</h4><h4 id="1-1-6-8-外部库"><a href="#1-1-6-8-外部库" class="headerlink" title="1.1.6.8 外部库"></a>1.1.6.8 外部库</h4></li>
+</ul>
+</blockquote>
+<h3 id="1-1-7-API"><a href="#1-1-7-API" class="headerlink" title="1.1.7 API"></a>1.1.7 API</h3><blockquote>
+<p>模块化编程需要记录库方法的用法并提供给他人参考的文档。</p>
+<h4 id="1-1-7-1-举例"><a href="#1-1-7-1-举例" class="headerlink" title="1.1.7.1 举例"></a>1.1.7.1 举例</h4><h4 id="1-1-7-4-自己编写的库"><a href="#1-1-7-4-自己编写的库" class="headerlink" title="1.1.7.4 自己编写的库"></a>1.1.7.4 自己编写的库</h4><p>注意事项</p>
+<ul>
+<li>编写用例，将计算过程分解成可控部分</li>
+<li>明确静态方法库和与之对应的API</li>
+<li>实现API和用于独立测试的main()函数<br>API 的目的是将调用和实现分离</li>
+</ul>
+</blockquote>
+<h3 id="1-1-8-字符串"><a href="#1-1-8-字符串" class="headerlink" title="1.1.8 字符串"></a>1.1.8 字符串</h3><p>String 类型是Java的数据类型，但不是原始数据类型</p>
+<h4 id="1-1-8-1-字符串拼接"><a href="#1-1-8-1-字符串拼接" class="headerlink" title="1.1.8.1 字符串拼接"></a>1.1.8.1 字符串拼接</h4><blockquote>
+<p>重载（+）运算符</p>
+<h4 id="1-1-8-2-类型转换"><a href="#1-1-8-2-类型转换" class="headerlink" title="1.1.8.2 类型转换"></a>1.1.8.2 类型转换</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">public class Integer</div><div class="line">    static int parseInt(String s)</div><div class="line">    static string toString(int i)</div></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="1-1-8-3-自动转换"><a href="#1-1-8-3-自动转换" class="headerlink" title="1.1.8.3 自动转换"></a>1.1.8.3 自动转换</h4><h4 id="1-1-8-4-命令行参数"><a href="#1-1-8-4-命令行参数" class="headerlink" title="1.1.8.4 命令行参数"></a>1.1.8.4 命令行参数</h4><blockquote>
+<p>字符串的重要用途：使程序能够接收从命令行传递来的信息</p>
+<p>当输入java 命令和一个库名及一系列字符串后，Java系统会调用库的main()方法并将那一系列字符串变成一个数组作为参数传递给它。</p>
+</blockquote>
+<h3 id="1-1-9-输入输出"><a href="#1-1-9-输入输出" class="headerlink" title="1.1.9 输入输出"></a>1.1.9 输入输出</h3><h4 id="1-1-9-1-命令和参数"><a href="#1-1-9-1-命令和参数" class="headerlink" title="1.1.9.1 命令和参数"></a>1.1.9.1 命令和参数</h4><h4 id="1-1-9-2-标准输出"><a href="#1-1-9-2-标准输出" class="headerlink" title="1.1.9.2 标准输出"></a>1.1.9.2 标准输出</h4><h4 id="1-1-9-3-格式化输出"><a href="#1-1-9-3-格式化输出" class="headerlink" title="1.1.9.3 格式化输出"></a>1.1.9.3 格式化输出</h4><h4 id="1-1-9-4-标准输入"><a href="#1-1-9-4-标准输入" class="headerlink" title="1.1.9.4 标准输入"></a>1.1.9.4 标准输入</h4><blockquote>
+<p>标准输入流的最重要特点是这些值会在程序读取它们之后消失，只要程序读取了一个值，它就不能回退并再次读取</p>
+<h4 id="1-1-9-5-重定向与管道"><a href="#1-1-9-5-重定向与管道" class="headerlink" title="1.1.9.5 重定向与管道"></a>1.1.9.5 重定向与管道</h4><h4 id="1-1-9-6-基于文件的输入输出"><a href="#1-1-9-6-基于文件的输入输出" class="headerlink" title="1.1.9.6 基于文件的输入输出"></a>1.1.9.6 基于文件的输入输出</h4><h4 id="1-1-9-7-标准绘图库"><a href="#1-1-9-7-标准绘图库" class="headerlink" title="1.1.9.7 标准绘图库"></a>1.1.9.7 标准绘图库</h4></blockquote>
+<h3 id="1-1-10-二分查找"><a href="#1-1-10-二分查找" class="headerlink" title="1.1.10 二分查找"></a>1.1.10 二分查找</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">import java.utils.Arrays</div><div class="line">public class BinarySearch &#123;</div><div class="line">    public static int rank(int key, int[] a) &#123;</div><div class="line">        int lo = 0;</div><div class="line">        int hi = a.length - 1;</div><div class="line">        while(lo &lt;= hi) &#123;</div><div class="line">            int mid = (lo + hi)/2;</div><div class="line">            if (key &lt; a[mid])</div><div class="line">                hi = mid - 1;</div><div class="line">            else if (key &gt; a[mid])</div><div class="line">                low = mid + 1;</div><div class="line">            else</div><div class="line">                return mid;</div><div class="line">        &#125;</div><div class="line">        return -1;</div><div class="line">    &#125;</div><div class="line">    public static void main(String[] args) &#123;</div><div class="line">        int[] whitelist = In.readInts(args[0]);</div><div class="line">        Arrays.sort(whitelist);</div><div class="line">        while (!StdIn.isEmpty()) &#123;</div><div class="line">            // 不存在则打印</div><div class="line">            int key = StdIn.readInt();</div><div class="line">            if(rank(key, whitelist) &lt; 0)</div><div class="line">                StdOut.println(key);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="1-1-10-1-二分查找"><a href="#1-1-10-1-二分查找" class="headerlink" title="1.1.10.1 二分查找"></a>1.1.10.1 二分查找</h4><p>有序数组中查找</p>
+<h4 id="1-1-10-3-白名单过滤"><a href="#1-1-10-3-白名单过滤" class="headerlink" title="1.1.10.3 白名单过滤"></a>1.1.10.3 白名单过滤</h4><h3 id="1-1-11-展望"><a href="#1-1-11-展望" class="headerlink" title="1.1.11 展望"></a>1.1.11 展望</h3><blockquote>
+<p>数据抽象（面向对象编程）：鼓励程序定义自己的数据类型，而不仅仅是静态方法</p>
+</blockquote>
+<p>数据抽象已成为现代程序开发的核心：</p>
+<ul>
+<li>允许通过模块化编程复用代码</li>
+<li>轻易构造链式数据结构</li>
+<li>通过定义数据结构，准确地定义面对的算法问题</li>
+</ul>
+<h2 id="1-2-数据抽象"><a href="#1-2-数据抽象" class="headerlink" title="1.2 数据抽象"></a>1.2 数据抽象</h2><blockquote>
+<p>数据类型：一组值和对值进行的操作的集合</p>
+<p>Java 主要使用 class 关键字构造引用类型。</p>
+<p>对象：保存了某个数据类型的值的实体</p>
+<p>抽象数据类型：能够对使用者隐藏数据，支持封装</p>
+</blockquote>
+<h3 id="1-2-1使用ADT"><a href="#1-2-1使用ADT" class="headerlink" title="1.2.1使用ADT"></a>1.2.1使用ADT</h3><blockquote>
+<p>抽象数据类型的定义与静态方法库的不同：</p>
+<ul>
+<li>ADT中的定义包含构造函数</li>
+<li>实例方法不需要static 修饰，目的就是操作数据类型中的值。</li>
+<li>某些实例方法是继承而来</li>
+</ul>
+</blockquote>
+<h4 id="1-2-1-2-继承的方法"><a href="#1-2-1-2-继承的方法" class="headerlink" title="1.2.1.2 继承的方法"></a>1.2.1.2 继承的方法</h4><blockquote>
+<p>继承Object基类的方法</p>
+<ul>
+<li>toString()</li>
+<li>equals()</li>
+<li>hashCode()</li>
+<li>compareTo()</li>
+</ul>
+</blockquote>
+<h4 id="1-2-1-4-对象"><a href="#1-2-1-4-对象" class="headerlink" title="1.2.1.4 对象"></a>1.2.1.4 对象</h4><blockquote>
+<p>对象：能够承载数据类型值的实体</p>
+</blockquote>
+<p>对象的三大特性：</p>
+<ul>
+<li>状态：数据类型的值</li>
+<li>标识：区分另一个对象，可以认为就是对象在内存中的位置</li>
+<li>行为：数据类型的操作<blockquote>
+<p>引用是访问对象的一种方式。</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="1-2-1-5-创建对象"><a href="#1-2-1-5-创建对象" class="headerlink" title="1.2.1.5 创建对象"></a>1.2.1.5 创建对象</h4><blockquote>
+<p>使用关键字 new 创建</p>
+</blockquote>
+<p>每当用例调用new，系统操作：</p>
+<ul>
+<li>为新的对象分配内存空间</li>
+<li>调用构造函数初始化对象</li>
+<li>返回对象的一个引用<h4 id="1-2-1-6-调用实例方法"><a href="#1-2-1-6-调用实例方法" class="headerlink" title="1.2.1.6 调用实例方法"></a>1.2.1.6 调用实例方法</h4></li>
+<li>静态方法：主要作用是实现函数；通过类名直接调用</li>
+<li>实例方法：实现对数据类型的操作；通过对象名调用<h4 id="1-2-1-7-使用对象"><a href="#1-2-1-7-使用对象" class="headerlink" title="1.2.1.7 使用对象"></a>1.2.1.7 使用对象</h4><h4 id="1-2-1-8-赋值语句"><a href="#1-2-1-8-赋值语句" class="headerlink" title="1.2.1.8 赋值语句"></a>1.2.1.8 赋值语句</h4><blockquote>
+<p>使用引用类型的赋值语句将创建该引用的一个副本。并不会创建新对象。两个引用指向同一对象</p>
+<h4 id="1-2-1-9-将对象作为参数"><a href="#1-2-1-9-将对象作为参数" class="headerlink" title="1.2.1.9 将对象作为参数"></a>1.2.1.9 将对象作为参数</h4><p>Java 的调用是按值传递，传递参数值的副本</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>传递对象作为参数时，传递的是对象的引用。方法无法改变原始的引用，但是可以改变对象的值</p>
+</blockquote>
+<h4 id="1-2-1-10-将对象作为返回值"><a href="#1-2-1-10-将对象作为返回值" class="headerlink" title="1.2.1.10 将对象作为返回值"></a>1.2.1.10 将对象作为返回值</h4><ul>
+<li>可以返回参数对象，也可以创建一个对象并返回其引用<h4 id="1-2-1-11-数组也是对象"><a href="#1-2-1-11-数组也是对象" class="headerlink" title="1.2.1.11 数组也是对象"></a>1.2.1.11 数组也是对象</h4></li>
+<li>一切非原始数据类型的值都是对象<h4 id="1-2-1-12-对象的数组"><a href="#1-2-1-12-对象的数组" class="headerlink" title="1.2.1.12 对象的数组"></a>1.2.1.12 对象的数组</h4>创建步骤：</li>
+</ul>
+<ol>
+<li>使用方括号语法调用数组的构造函数创建数组对象</li>
+<li>对于数组的每一个元素调用其构造函数创建对象</li>
+</ol>
+<h3 id="1-2-3-抽象数据类型的实现"><a href="#1-2-3-抽象数据类型的实现" class="headerlink" title="1.2.3 抽象数据类型的实现"></a>1.2.3 抽象数据类型的实现</h3><h2 id="1-3-背包，队列和栈"><a href="#1-3-背包，队列和栈" class="headerlink" title="1.3 背包，队列和栈"></a>1.3 背包，队列和栈</h2><blockquote>
+<p>均为对象的集合</p>
+<p>区别：删除或访问对象的顺序不同</p>
+<h3 id="1-3-1-API"><a href="#1-3-1-API" class="headerlink" title="1.3.1 API"></a>1.3.1 API</h3><p>背包(Bag)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">public class Bag&lt;Item&gt; implements Iterable&lt;Item&gt;</div><div class="line">Bag()  //创建空背包</div><div class="line">void add(Item item) //加入元素</div><div class="line">boolean isEmpty()  //判断是否为空</div><div class="line">int size()  //背包内元素的数目</div></pre></td></tr></table></figure></p>
+</blockquote>
+<p>先进先出(FIFO)队列（Queue）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">public class Queue&lt;Item&gt; implements Iterable&lt;Item&gt;</div><div class="line">Queue()     //创建空队列</div><div class="line">void enqueue(Item item) //加入队列</div><div class="line">Item dequeue() //删除一个最近添加的元素</div><div class="line">boolean isEmpty() //判断是否为空</div><div class="line">int size() //队列长度</div></pre></td></tr></table></figure></p>
+<p>下压栈(Stack), 后进先出（LIFO）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">public class Stack&lt;Item&gt; implements Iterable&lt;Item&gt;</div><div class="line">Stack() //创建空栈</div><div class="line">void push(Item item)    //入栈</div><div class="line">Item pop() //出栈</div><div class="line">boolean isEmpty() //判断是否为空</div><div class="line">int size() //栈的高度</div></pre></td></tr></table></figure></p>
+<h4 id="1-3-1-1-泛型"><a href="#1-3-1-1-泛型" class="headerlink" title="1.3.1.1 泛型"></a>1.3.1.1 泛型</h4><p>可以使用集合类的抽象数据类型存储任意类型的数据</p>
+<p><item>中，Item为一个类型参数，是象征性的占位符，可以表示任意数据类型</item></p>
+<p>泛型可以保证我们用一份API处理所有类型的数据</p>
+<h4 id="1-3-1-2-自动装箱"><a href="#1-3-1-2-自动装箱" class="headerlink" title="1.3.1.2 自动装箱"></a>1.3.1.2 自动装箱</h4><p>类型参数Item必须被实例化为引用类型。</p>
+<p>原始数据类型分别对应着它们的引用类型。</p>
+<p>Java会自动在引用类型和对应的原始数据类型之间进行转换。</p>
+<h4 id="1-3-1-3-可迭代的集合类型"><a href="#1-3-1-3-可迭代的集合类型" class="headerlink" title="1.3.1.3 可迭代的集合类型"></a>1.3.1.3 可迭代的集合类型</h4><p>用例需要以某种方式处理集合中的每一个元素，即迭代访问集合中的所有元素</p>
+<h4 id="1-3-1-4-背包"><a href="#1-3-1-4-背包" class="headerlink" title="1.3.1.4 背包"></a>1.3.1.4 背包</h4><blockquote>
+<p>不支持删除操作</p>
+<p>迭代顺序不确定且与用例无关</p>
+<p>元素处理顺序不重要</p>
+<h4 id="1-3-1-5-队列"><a href="#1-3-1-5-队列" class="headerlink" title="1.3.1.5 队列"></a>1.3.1.5 队列</h4><p>先进先出（FIFO）策略</p>
+<p>应用场景：用集合保存元素同时保持它们的相对顺序</p>
+<h4 id="1-3-1-6-下压栈"><a href="#1-3-1-6-下压栈" class="headerlink" title="1.3.1.6 下压栈"></a>1.3.1.6 下压栈</h4><p>后进先出（LIFO）策略</p>
+<p>应用场景：用集合保存元素同时颠倒它们的相对顺序</p>
+<p>典型举例：Dijikstra 双栈算法进行算数表达式求值</p>
+</blockquote>
+<p>表达式由括号、运算符、操作数（数字）组成。我们使用两个栈(运算符栈，操作数栈)，并按以下四种情况进行处理：</p>
+<ul>
+<li>运算符压入运算符栈</li>
+<li>操作数压入操作数栈</li>
+<li>忽略左括号</li>
+<li>遇到右括号，弹出一个运算符，弹出所需数量的操作数，运算后，将结果压入操作数栈</li>
+</ul>
+<p>以下为实现代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">public class DijikstraDoubleStack &#123;</div><div class="line">    public static void main(String[] args) &#123;</div><div class="line">        Stack&lt;String&gt; ops = new Stack&lt;String&gt;();</div><div class="line">        Stack&lt;Double&gt; vals = new Stack&lt;Double&gt;();</div><div class="line">        while(!StdIn.empty()) &#123;</div><div class="line">            //读取字符，压入相应的栈</div><div class="line">            String s = StdIn.readString();</div><div class="line">            if(s.equals(&quot;(&quot;))   continue;</div><div class="line">            else if(s.equals(&quot;+&quot;) || s.equals(&quot;-&quot;) ||s.equals(&quot;*&quot;) || s.equals(&quot;/&quot;) || s.equals(&quot;sqrt&quot;))   </div><div class="line">                ops.push(s);</div><div class="line">            else if(s.equals(&quot;)&quot;) &#123;</div><div class="line">                String op = ops.pop();</div><div class="line">                double val = vals.pop();</div><div class="line">                if(op == &quot;+&quot;)   val = vals.pop() + val;</div><div class="line">                else if(op == &quot;-&quot;)  val = vals.pop() - val;</div><div class="line">                else if(op == &quot;*&quot;)  val = vals.pop() * val;</div><div class="line">                else if(op == &quot;/&quot;)  val = vals.pop() / val;</div><div class="line">                else if(op == &quot;sqrt&quot;)   val = Math.sqrt(val);</div><div class="line">                vals.push(val);</div><div class="line">            &#125;</div><div class="line">            else vals.push(Double.parseDouble(s));</div><div class="line">        &#125;</div><div class="line">        StdOut.println(vals.pop());</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="1-3-2-集合类数据类型的实现"><a href="#1-3-2-集合类数据类型的实现" class="headerlink" title="1.3.2 集合类数据类型的实现"></a>1.3.2 集合类数据类型的实现</h3><h4 id="1-3-2-1-定容栈"><a href="#1-3-2-1-定容栈" class="headerlink" title="1.3.2.1 定容栈"></a>1.3.2.1 定容栈</h4><blockquote>
+<p>利用数组实现，数组中的元素顺序和它们被插入的顺序相同，栈的顶部位于a[N-1]</p>
+<h4 id="1-3-2-2-泛型"><a href="#1-3-2-2-泛型" class="headerlink" title="1.3.2.2 泛型"></a>1.3.2.2 泛型</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">public class FixedCapacityStack&lt;Item&gt;</div></pre></td></tr></table></figure>
+<p>Item 是类型参数，FixedCapacityStack<item>  可以理解成某种元素的栈<br>创建泛型数组在Java中是不允许的，需要使用类型转换<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">a = (Item[]) new Object[cap]</div></pre></td></tr></table></figure></item></p>
+</blockquote>
+<h4 id="1-3-2-3-调整数组大小"><a href="#1-3-2-3-调整数组大小" class="headerlink" title="1.3.2.3 调整数组大小"></a>1.3.2.3 调整数组大小</h4><ul>
+<li>push() 操作，如果数组没有多余空间则将数组加倍</li>
+<li>pop() 操作，如果栈的大小小于数组的1/4, 则将数组长度减半。状态约为半满<h4 id="1-3-2-4-对象游离"><a href="#1-3-2-4-对象游离" class="headerlink" title="1.3.2.4 对象游离"></a>1.3.2.4 对象游离</h4><blockquote>
+<p>避免游离：将被弹出的数组元素的值设为null</p>
+<h4 id="1-3-2-5-迭代"><a href="#1-3-2-5-迭代" class="headerlink" title="1.3.2.5 迭代"></a>1.3.2.5 迭代</h4><p>可迭代数据类型需要实现：</p>
+</blockquote>
+</li>
+<li>iterator() 方法并返回Iterator 对象</li>
+<li>Iterator 类必须包含两个方法: hasNext() 和 next()</li>
+</ul>
+<blockquote>
+<p>使一个类可迭代，第一步是在声明中加入实现Iterable接口，然后在类中添加一个方法iterator() 并返回一个迭代器Iterator<item>。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">public interface Iterable&lt;Item&gt; &#123;</div><div class="line">    Iterator&lt;Item&gt; iterator();</div><div class="line">&#125;</div></pre></td></tr></table></figure></item></p>
+<p>迭代器的定义<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">public interface Iterator&lt;Item&gt; &#123;</div><div class="line">    boolean hasNext();</div><div class="line">    Item next();</div><div class="line">    void remove();</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>动态数组实现的下压栈的完整实现：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line">import java.util.Iterator</div><div class="line">public class ResizingArrayStack&lt;Item&gt; implements Iteable&lt;Item&gt; &#123;</div><div class="line">    private Item[] a = (Item[]) new Object[1]; //栈元素</div><div class="line">    private int N = 0; // 元素数量</div><div class="line">    private void resize(int max) &#123;</div><div class="line">        Item[] tmp = (Item[]) new Object[max];</div><div class="line">        for(int i = 0; i &lt; N; i++) &#123;</div><div class="line">            tmp[i] = a[i];</div><div class="line">        &#125;</div><div class="line">        a = tmp;</div><div class="line">    &#125;</div><div class="line">    public boolean isEmpty() &#123;</div><div class="line">        return N==0;</div><div class="line">    &#125;</div><div class="line">    public int size() &#123;</div><div class="line">        return N;</div><div class="line">    &#125;</div><div class="line">    public void push(Item item) &#123;</div><div class="line">        if(N == a.length)</div><div class="line">            resize(2*a.length);</div><div class="line">        a[N++] = item;</div><div class="line">    &#125;</div><div class="line">    public Item pop() &#123;</div><div class="line">        Item item = a[--N];</div><div class="line">        a[N] = null;</div><div class="line">        if(N &gt; 0 &amp;&amp; N == a.length/4)</div><div class="line">            resize(a.length/2);</div><div class="line">        return item;</div><div class="line">    &#125;</div><div class="line">    public Iterator&lt;Item&gt; iterator() &#123;</div><div class="line">        return new ReverseArrayIterator();</div><div class="line">    &#125;</div><div class="line">    private class ReverseArrayIterator implements Iterator&lt;Item&gt; &#123;</div><div class="line">        // 支持后进先出的迭代</div><div class="line">        private int i = N;</div><div class="line">        public boolean hasNext() &#123;</div><div class="line">            return i &gt; 0;</div><div class="line">        &#125;</div><div class="line">        publc Item next() &#123;</div><div class="line">            return a[--i];</div><div class="line">        &#125;</div><div class="line">        public void remove() &#123;&#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="1-3-3-链表"><a href="#1-3-3-链表" class="headerlink" title="1.3.3 链表"></a>1.3.3 链表</h3>  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/2017/04/29/Algrithom Note/" data-title="Hexo" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2017/04/29/hello-world/"  title="Hello World">
+ <strong>下一篇：</strong><br/> 
+ <span>Hello World
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#第1章-基础"><span class="toc-number">1.</span> <span class="toc-text">第1章 基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-基础编程模型"><span class="toc-number">1.1.</span> <span class="toc-text">1.1 基础编程模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-1-Java程序的基本结构"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1.1 Java程序的基本结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-2-原始数据类型与表达式"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.1.2 原始数据类型与表达式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-1-表达式"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">1.1.2.1 表达式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-2-类型转换"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">1.1.2.2 类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-3-比较"><span class="toc-number">1.1.2.3.</span> <span class="toc-text">1.1.2.3 比较</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-4-其他原始类型"><span class="toc-number">1.1.2.4.</span> <span class="toc-text">1.1.2.4 其他原始类型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-3-语句"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.1.3 语句</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-1-声明语句"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">1.1.3.1 声明语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-2-赋值语句"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">1.1.3.2 赋值语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-3-条件语句"><span class="toc-number">1.1.3.3.</span> <span class="toc-text">1.1.3.3 条件语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-4-循环语句"><span class="toc-number">1.1.3.4.</span> <span class="toc-text">1.1.3.4 循环语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-5-break-和-continue-语句"><span class="toc-number">1.1.3.5.</span> <span class="toc-text">1.1.3.5 break 和 continue 语句</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-4-简便记法"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.1.4 简便记法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-1-声明并初始化"><span class="toc-number">1.1.4.1.</span> <span class="toc-text">1.1.4.1 声明并初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-2-隐式赋值"><span class="toc-number">1.1.4.2.</span> <span class="toc-text">1.1.4.2 隐式赋值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-3-单语句代码段"><span class="toc-number">1.1.4.3.</span> <span class="toc-text">1.1.4.3 单语句代码段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-4-for-语句"><span class="toc-number">1.1.4.4.</span> <span class="toc-text">1.1.4.4 for 语句</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-5-数组"><span class="toc-number">1.1.5.</span> <span class="toc-text">1.1.5 数组</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-1-创建并初始化数组"><span class="toc-number">1.1.5.1.</span> <span class="toc-text">1.1.5.1 创建并初始化数组</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-2-简化写法"><span class="toc-number">1.1.5.2.</span> <span class="toc-text">1.1.5.2 简化写法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-3-使用数组"><span class="toc-number">1.1.5.3.</span> <span class="toc-text">1.1.5.3 使用数组</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-4-起别名"><span class="toc-number">1.1.5.4.</span> <span class="toc-text">1.1.5.4 起别名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-5-二维数组"><span class="toc-number">1.1.5.5.</span> <span class="toc-text">1.1.5.5 二维数组</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-6-静态方法"><span class="toc-number">1.1.6.</span> <span class="toc-text">1.1.6 静态方法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-1-静态方法"><span class="toc-number">1.1.6.1.</span> <span class="toc-text">1.1.6.1 静态方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-2-调用静态方法"><span class="toc-number">1.1.6.2.</span> <span class="toc-text">1.1.6.2 调用静态方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-3-方法的性质"><span class="toc-number">1.1.6.3.</span> <span class="toc-text">1.1.6.3 方法的性质</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-4-递归"><span class="toc-number">1.1.6.4.</span> <span class="toc-text">1.1.6.4 递归</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-5-基础编程模型"><span class="toc-number">1.1.6.5.</span> <span class="toc-text">1.1.6.5 基础编程模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-6-模块化编程"><span class="toc-number">1.1.6.6.</span> <span class="toc-text">1.1.6.6 模块化编程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-7-单元测试"><span class="toc-number">1.1.6.7.</span> <span class="toc-text">1.1.6.7 单元测试</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6-8-外部库"><span class="toc-number">1.1.6.8.</span> <span class="toc-text">1.1.6.8 外部库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-7-API"><span class="toc-number">1.1.7.</span> <span class="toc-text">1.1.7 API</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-7-1-举例"><span class="toc-number">1.1.7.1.</span> <span class="toc-text">1.1.7.1 举例</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-7-4-自己编写的库"><span class="toc-number">1.1.7.2.</span> <span class="toc-text">1.1.7.4 自己编写的库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-8-字符串"><span class="toc-number">1.1.8.</span> <span class="toc-text">1.1.8 字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-1-字符串拼接"><span class="toc-number">1.1.8.1.</span> <span class="toc-text">1.1.8.1 字符串拼接</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-2-类型转换"><span class="toc-number">1.1.8.2.</span> <span class="toc-text">1.1.8.2 类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-3-自动转换"><span class="toc-number">1.1.8.3.</span> <span class="toc-text">1.1.8.3 自动转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-8-4-命令行参数"><span class="toc-number">1.1.8.4.</span> <span class="toc-text">1.1.8.4 命令行参数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-9-输入输出"><span class="toc-number">1.1.9.</span> <span class="toc-text">1.1.9 输入输出</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-1-命令和参数"><span class="toc-number">1.1.9.1.</span> <span class="toc-text">1.1.9.1 命令和参数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-2-标准输出"><span class="toc-number">1.1.9.2.</span> <span class="toc-text">1.1.9.2 标准输出</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-3-格式化输出"><span class="toc-number">1.1.9.3.</span> <span class="toc-text">1.1.9.3 格式化输出</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-4-标准输入"><span class="toc-number">1.1.9.4.</span> <span class="toc-text">1.1.9.4 标准输入</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-5-重定向与管道"><span class="toc-number">1.1.9.5.</span> <span class="toc-text">1.1.9.5 重定向与管道</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-6-基于文件的输入输出"><span class="toc-number">1.1.9.6.</span> <span class="toc-text">1.1.9.6 基于文件的输入输出</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-9-7-标准绘图库"><span class="toc-number">1.1.9.7.</span> <span class="toc-text">1.1.9.7 标准绘图库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-10-二分查找"><span class="toc-number">1.1.10.</span> <span class="toc-text">1.1.10 二分查找</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-10-1-二分查找"><span class="toc-number">1.1.10.1.</span> <span class="toc-text">1.1.10.1 二分查找</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-10-3-白名单过滤"><span class="toc-number">1.1.10.2.</span> <span class="toc-text">1.1.10.3 白名单过滤</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-11-展望"><span class="toc-number">1.1.11.</span> <span class="toc-text">1.1.11 展望</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-数据抽象"><span class="toc-number">1.2.</span> <span class="toc-text">1.2 数据抽象</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-1使用ADT"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.2.1使用ADT</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-2-继承的方法"><span class="toc-number">1.2.1.1.</span> <span class="toc-text">1.2.1.2 继承的方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-4-对象"><span class="toc-number">1.2.1.2.</span> <span class="toc-text">1.2.1.4 对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-5-创建对象"><span class="toc-number">1.2.1.3.</span> <span class="toc-text">1.2.1.5 创建对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-6-调用实例方法"><span class="toc-number">1.2.1.4.</span> <span class="toc-text">1.2.1.6 调用实例方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-7-使用对象"><span class="toc-number">1.2.1.5.</span> <span class="toc-text">1.2.1.7 使用对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-8-赋值语句"><span class="toc-number">1.2.1.6.</span> <span class="toc-text">1.2.1.8 赋值语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-9-将对象作为参数"><span class="toc-number">1.2.1.7.</span> <span class="toc-text">1.2.1.9 将对象作为参数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-10-将对象作为返回值"><span class="toc-number">1.2.1.8.</span> <span class="toc-text">1.2.1.10 将对象作为返回值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-11-数组也是对象"><span class="toc-number">1.2.1.9.</span> <span class="toc-text">1.2.1.11 数组也是对象</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-12-对象的数组"><span class="toc-number">1.2.1.10.</span> <span class="toc-text">1.2.1.12 对象的数组</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-3-抽象数据类型的实现"><span class="toc-number">1.2.2.</span> <span class="toc-text">1.2.3 抽象数据类型的实现</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-背包，队列和栈"><span class="toc-number">1.3.</span> <span class="toc-text">1.3 背包，队列和栈</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-1-API"><span class="toc-number">1.3.1.</span> <span class="toc-text">1.3.1 API</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-1-泛型"><span class="toc-number">1.3.1.1.</span> <span class="toc-text">1.3.1.1 泛型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-2-自动装箱"><span class="toc-number">1.3.1.2.</span> <span class="toc-text">1.3.1.2 自动装箱</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-3-可迭代的集合类型"><span class="toc-number">1.3.1.3.</span> <span class="toc-text">1.3.1.3 可迭代的集合类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-4-背包"><span class="toc-number">1.3.1.4.</span> <span class="toc-text">1.3.1.4 背包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-5-队列"><span class="toc-number">1.3.1.5.</span> <span class="toc-text">1.3.1.5 队列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-6-下压栈"><span class="toc-number">1.3.1.6.</span> <span class="toc-text">1.3.1.6 下压栈</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-2-集合类数据类型的实现"><span class="toc-number">1.3.2.</span> <span class="toc-text">1.3.2 集合类数据类型的实现</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-1-定容栈"><span class="toc-number">1.3.2.1.</span> <span class="toc-text">1.3.2.1 定容栈</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-2-泛型"><span class="toc-number">1.3.2.2.</span> <span class="toc-text">1.3.2.2 泛型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-3-调整数组大小"><span class="toc-number">1.3.2.3.</span> <span class="toc-text">1.3.2.3 调整数组大小</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-4-对象游离"><span class="toc-number">1.3.2.4.</span> <span class="toc-text">1.3.2.4 对象游离</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-5-迭代"><span class="toc-number">1.3.2.5.</span> <span class="toc-text">1.3.2.5 迭代</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-3-链表"><span class="toc-number">1.3.3.</span> <span class="toc-text">1.3.3 链表</span></a></li></ol></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+
+  
+
+  
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="https://coderq.com" target="_blank" title="一个面向程序员交流分享的新一代社区">码农圈</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <div class="weiboshow">
+  <p class="asidetitle">新浪微博</p>
+    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=null&verifier=b3593ceb&dpc=1"></iframe>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello ,I&#39;m Larry Page in Google. <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/2176287895" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
+		
+		<a href="/about" target="_blank" title="John Doe">John Doe</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
